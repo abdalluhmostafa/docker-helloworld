@@ -5,7 +5,7 @@ RUN apt-get update && \
  apt-get -y install apache2
 
 # Install apache and write hello world message
-RUN echo 'Weclome to Codepipline Version 4!!!i new2222222222' > /var/www/html/index.html
+RUN echo 'Weclome to Codepipline Version 4!!!i new2222222222 pipe19' > /var/www/html/index.html
 
 # Configure apache
 RUN echo '. /etc/apache2/envvars' > /root/run_apache.sh && \
